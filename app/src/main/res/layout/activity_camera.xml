@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.co.francisco.co_app.gui.CameraActivity">
+
+    <Button
+        android:background="@drawable/ic_camera_take_photo"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/btn_take_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        >
+    </Button>
+    <Button
+        android:background="@drawable/ic_videocam"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btn_video_cam"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        >
+    </Button>
+
+    <ImageView
+        android:id="@+id/image_icone_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/btn_take_photo"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_my_profil" >
+    </ImageView>
+
+</RelativeLayout>

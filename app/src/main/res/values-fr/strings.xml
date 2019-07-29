@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Msb</string>
+    <string name="nom">Nom :</string>
+    <string name="prenom">Prenom :</string>
+    <string name="quitter">Vous avez quité</string>
+    <string name="erreur_champs_vide">Il faut completer tous les champs!!</string>
+    <string name="demare">application bien demarée</string>
+</resources>

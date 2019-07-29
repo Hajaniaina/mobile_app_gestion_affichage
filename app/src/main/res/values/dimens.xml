@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fb_float_contact_button_size">20dp</dimen>
+    <item name="scale_button_large" type="dimen">1</item>
+    <dimen name="float_button_scaleX">@dimen/scale_button_large</dimen>
+    <dimen name="float_button_scaleY">@dimen/scale_button_large</dimen>
+
+</resources>

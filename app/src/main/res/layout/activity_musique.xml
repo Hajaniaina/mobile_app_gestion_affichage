@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.co.francisco.co_app.gui.MusiqueActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/text_musique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:text="My Musique"
+            android:textColor="@color/colorAppblack"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/text_musique"
+            android:layout_alignTop="@+id/text_musique"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/ic_play_musique"
+            android:text="" />
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/start"
+            android:layout_toRightOf="@+id/start"
+            android:background="@drawable/ic_pause_musique"
+            android:layout_marginLeft="50dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_alignBaseline="@+id/pause"
+            android:layout_alignBottom="@+id/pause"
+            android:layout_toEndOf="@+id/pause"
+            android:layout_toRightOf="@+id/pause"
+            android:background="@drawable/ic_stop_musique"
+            android:layout_marginLeft="50dp"
+            android:text="" />
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/left_musique"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/colorAppGrey"
+            app:fab_colorPressed="@color/colorAppRed"
+            android:src="@drawable/ic_back"
+            />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

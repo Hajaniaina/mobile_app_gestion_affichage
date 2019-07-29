@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Msb</string>
+    <string name="nom">Name : </string>
+    <string name="prenom">Last Name : </string>
+    <string name="erreur_champs_vide">Il faut completer tous les champs!!</string>
+    <string name="quitter">Vous avez quité</string>
+    <string name="demare">application bien demarée</string>
+    <string name="progress_map_string">application en cours</string>
+    <string name="progress_loading_string">en cours de developpement</string>
+    <string name="verifier_connection">Verifier la connexion</string>
+    <string name="title_activity_camera">Camera</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_play_liste_activity">play_liste_activity</string>
+    <string name="location_settings_string">Parametre de localisation</string>
+    <string name="location_rationale_string">Le service de localisation est désactivé. Activer le mode Haute précision dans les paramètres Android pour continuer</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="permissions_string">Pour continuer, activez toutes les autorisations dans les paramètres Android</string>
+    <string name="permissions_enable_string">Cette application nécessite l\\\'activation de toutes les autorisations</string>
+    <string name="permissions_retry_string">Réessayer</string>
+    <string name="force_permissions_string">Pour continuer, activez toutes les autorisations dans les paramètres Android</string>
+</resources>

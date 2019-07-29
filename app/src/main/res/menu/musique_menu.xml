@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_shuffle"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="Shuffle"
+        android:icon="@drawable/ic_shuffle_musique"
+        />
+    <item
+        android:id="@+id/action_end"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="End"
+        android:icon="@drawable/ic_quitte_musique"
+        />
+</menu>

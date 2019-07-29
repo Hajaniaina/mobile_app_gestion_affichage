@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fontApplication">#303F9F</color>
+    <color name="colorAppGrey">#3333cc</color>
+    <color name="colorAppblack">#000000</color>
+    <color name="colorAppRed">#ff0000</color>
+    <color name="enable_btn">#e0e0eb</color>
+    <color name="colore_grid_layout">#f5f5f0</color>
+    <color name="colore_white">#FFFFFF</color>
+    <color name="color_musique_selected">#120fff</color>
+
+
+</resources>

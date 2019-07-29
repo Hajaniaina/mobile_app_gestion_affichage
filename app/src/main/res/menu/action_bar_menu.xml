@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/my_rotation_screen"
+        android:icon="@drawable/ic_rotation"
+        app:showAsAction="ifRoom"
+        android:title="" />
+    <item android:id="@+id/my_profile"
+        android:icon="@drawable/ic_my_profil"
+        app:showAsAction="never"
+        android:title="Mon Profil" />
+    <item android:id="@+id/setting"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="never"
+        android:title="Paramettre" />
+    <item android:id="@+id/help"
+        android:icon="@drawable/ic_help"
+        app:showAsAction="never"
+        android:title="Aide" />
+
+    <item android:id="@+id/quitter"
+        app:showAsAction="never"
+        android:title="Quitter" />
+
+</menu>
